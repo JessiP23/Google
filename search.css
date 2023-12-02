@@ -1,0 +1,58 @@
+#lettertitle{
+    color: rgb(204, 55, 1);
+}
+
+#link-image{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.line{
+    border-bottom: 1px solid rgb(233, 49, 49);
+}
+
+.first_sentence{
+    font-size: 25px;
+    color: 333333;
+    margin: 50px;
+}
+
+.lines{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.left-side{
+    width: 300px;
+    margin-right: 80px;
+}
+
+.right-side{
+    width: 300px;
+}
+
+.inputt-form-control{
+    width: 380px;
+}
+
+.button{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3070de;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+}
+
+.button-side{
+    width: 950px;
+    display: flex;
+    justify-content: flex-end;
+}

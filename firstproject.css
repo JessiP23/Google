@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/pink-and-purple-colour-sky-at-sunset-royalty-free-image-1683749763.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+#images{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    right: 0;
+    top: 0;
+    margin: 0 10px;
+}
+
+#imageser, #search{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+#search{
+    margin-right: 60px;
+}
+
+.advser{
+    color: black;
+    font-size: 20px;
+}
+
+#space{
+    position: relative;
+    width: 100px;
+}
+
+#googlelogo{
+    width: 60%;
+    position: absolute;
+    margin: auto;
+    align-self: center;
+    left: 20%;
+    top: 70px;
+}
+
+#container{
+    width: 20%;
+}
+
+#googlese{
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 470px;
+    flex-wrap: wrap;
+    width: 600px;
+}   
+
+button, #button{
+    width: 100%;
+    margin: 1px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#lucky{
+    width: 250px;
+    height: 35px;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    background-color: bisque;
+    border-radius: 5px;
+    border: none;
+}
